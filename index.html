@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body { 
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; 
+    color: #333; 
+    line-height: 1.6; 
+    margin: 0; 
+    padding: 10px; 
+    background: transparent; 
+  }
+  .container { 
+    max-width: 800px; 
+    margin: auto; 
+    background: #ffffff; 
+    padding: 30px; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08); 
+  }
+  .header-section { 
+    display: flex; 
+    align-items: center; 
+    gap: 25px; 
+    border-bottom: 2px solid #f0f0f0; 
+    padding-bottom: 25px; 
+    margin-bottom: 25px; 
+  }
+  .photo-container {
+    width: 140px; 
+    height: 140px; 
+    border-radius: 50%; 
+    border: 3px solid #0056b3; 
+    overflow: hidden; 
+    flex-shrink: 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  .photo-container img { 
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+    object-position: 50% 20%; 
+  }
+  .title h1 { 
+    margin: 0 0 5px 0; 
+    color: #1a1a1a; 
+    font-size: 28px;
+  }
+  .title h2 { 
+    margin: 0; 
+    color: #0056b3; 
+    font-weight: 500; 
+    font-size: 18px; 
+  }
+  .section-title { 
+    color: #1a1a1a; 
+    border-left: 4px solid #0056b3; 
+    padding-left: 10px; 
+    margin-top: 30px; 
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .skill-tag { 
+    display: inline-block; 
+    background: #eef5ff; 
+    color: #0056b3;
+    padding: 6px 14px; 
+    border-radius: 20px; 
+    margin: 5px 5px 0 0; 
+    font-size: 14px; 
+    font-weight: 500;
+  }
+  .contact-links a { 
+    color: #0056b3; 
+    text-decoration: none; 
+    margin-right: 20px; 
+    font-weight: 600; 
+    display: inline-block;
+    margin-top: 10px;
+  }
+  .contact-links a:hover { 
+    text-decoration: underline; 
+  }
+  .item { 
+    margin-bottom: 15px; 
+  }
+  .item strong { 
+    display: block; 
+    color: #222; 
+    font-size: 16px;
+  }
+  .item span { 
+    color: #666; 
+    font-size: 14px; 
+  }
+  .item p {
+    margin: 5px 0 0 0; 
+    font-size: 15px; 
+    color: #444;
+  }
+  /* Responsividade */
+  @media (max-width: 600px) {
+    .header-section { 
+      flex-direction: column; 
+      text-align: center; 
+    }
+    .contact-links a {
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    
+    <div class="header-section">
+      <div class="photo-container">
+        <img src="https://lh3.googleusercontent.com/d/1mplJ9Gk3P5GM5gZpDm3ZX-s-dKqcv86X" alt="Jamenson Araujo de Freitas">
+      </div>
+      <div class="title">
+        <h1>Jamenson Araujo de Freitas</h1>
+        <h2>Desenvolvedor de Software em Formação</h2>
+      </div>
+    </div>
+
+    <h3 class="section-title">Sobre Mim</h3>
+    <p>Estou em processo de transição de carreira e busco uma oportunidade de estágio como desenvolvedor, onde possa aplicar meus conhecimentos em HTML, CSS, JavaScript e Java. Sou um entusiasta da área de tecnologia e estou constantemente aprimorando minhas habilidades através de prática autodidata e busca contínua por novos conhecimentos.</p>
+
+    <h3 class="section-title">Tecnologias e Ferramentas</h3>
+    <div>
+      <span class="skill-tag">HTML</span>
+      <span class="skill-tag">CSS</span>
+      <span class="skill-tag">JavaScript</span>
+      <span class="skill-tag">ReactJS</span>
+      <span class="skill-tag">Java</span>
+      <span class="skill-tag">SQL</span>
+      <span class="skill-tag">Banco de Dados</span>
+      <span class="skill-tag">Git / GitHub</span>
+      <span class="skill-tag">Scrum</span>
+    </div>
+
+    <h3 class="section-title">Projetos Desenvolvidos</h3>
+    <div class="item">
+      <strong>Calculadora de IMC</strong>
+      <p>Aplicação interativa desenvolvida utilizando HTML, CSS e ReactJS.</p>
+    </div>
+    <div class="item">
+      <strong>Landing Page Responsiva</strong>
+      <p>Página de aterrissagem adaptável, desenvolvida com HTML e CSS.</p>
+    </div>
+    <div class="item">
+      <strong>Tela de Login Responsiva</strong>
+      <p>Interface de autenticação adaptável, desenvolvida com HTML e CSS.</p>
+    </div>
+
+    <h3 class="section-title">Escolaridade</h3>
+    <div class="item">
+      <strong>Análise e Desenvolvimento de Sistemas</strong>
+      <span>CEUB | 2026 - Cursando</span>
+    </div>
+    <div class="item">
+      <strong>Mestrado em Ciência da Informação</strong>
+      <span>Universidade de Brasília (UnB) | 2020 - 2022</span>
+    </div>
+    <div class="item">
+      <strong>Bacharelado em Museologia</strong>
+      <span>Universidade de Brasília (UnB) | 2012 - 2018</span>
+    </div>
+
+    <h3 class="section-title">Experiência Profissional</h3>
+    <div class="item">
+      <strong>Operador de Atendimento</strong>
+      <span>Banco Sicoob | Atual</span>
+    </div>
+    <div class="item">
+      <strong>Técnico de Help-Desk</strong>
+      <span>Core Tecnologia | 2024 - 2025</span>
+    </div>
+    <div class="item">
+      <strong>Aluno Pesquisador de Pós-graduação</strong>
+      <span>CAPES | 2020 - 2022</span>
+    </div>
+    <div class="item">
+      <strong>Backoffice</strong>
+      <span>CTIS | 2012 - 2019</span>
+    </div>
+
+    <h3 class="section-title">Contato</h3>
+    <div class="contact-links">
+      <a href="mailto:jamenson@hotmail.com.br">📧 jamenson@hotmail.com.br</a>
+      <a href="https://wa.me/5561992661159" target="_blank">📱 (61) 99266-1159</a>
+      <a href="https://linkedin.com/in/jamenson-araujo-de-freitas/" target="_blank">🔗 LinkedIn</a>
+      <a href="https://github.com/Afjames" target="_blank">🐙 GitHub</a>
+    </div>
+
+  </div>
+</body>
+</html>
