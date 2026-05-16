@@ -1,6 +1,3 @@
-# github-page
-Página para portfólio da matéria bootcamp, do primeiro semestre no CEUB
-
 ```yaml
 name: Jamenson Araujo de Freitas
 job: Desenvolvedor (Em transição de carreira)
